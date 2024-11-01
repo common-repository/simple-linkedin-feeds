@@ -1,0 +1,128 @@
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#linkedin_slider {
+	position: relative;
+}
+#sldw_linkedin_widget1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #13c0fe;
+	background-color: #fff;
+	position: fixed;
+}
+#sldw_linkedin_widget2 {
+	overflow: hidden;
+	text-align: left;
+}
+#sldw_linkedin_widget1 .sldw_linkediniconlinkleft {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#sldw_linkedin_widget1 iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sldw_main_display > h2.sldw_top_style {
+	background: #007bb6 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    font-size: 25px !important;
+    font-weight: normal;
+    padding: 15px 0 !important;
+    text-align: center;
+}
+.sldw_main_display .submit {
+	text-align: center;
+	width: 520px;
+}
+.sldw_main_display .submit .button-submit  {
+	background: #007bb6 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.sldw_main_display th {
+	color: #007bb6;
+	font-size: 16px;
+}
+.sldw_main_display h2 {
+	color: #007bb6;
+	font-size: 26px;
+}
+.sldw_main_display .form-table input {
+	background: #fff;
+	border: 1px solid #007bb6;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.sldw_main_display select {
+	border: 1px solid #007bb6;
+	border-radius: 3px;
+}
+.sldw_idinfo {
+	line-height: 20px;
+	padding: 5px 0;
+	word-spacing: 2px;
+}
+.sldw_cstshowhide {
+	cursor: pointer;
+}
+.sldw_customidinfo h4 {
+	margin: 0;
+}
+.sldw_customidinfo h4 span {
+	color: #007bb6;
+}
+.sldw_main_display select {
+	border: 1px solid #cb2027;
+	border-radius: 3px;
+} 
+.sldw_main_display {
+    background: #fff none repeat scroll 0 0;
+    width: 45%;
+	padding-bottom: 15px;
+}
+.sldw_main_display .form-table input[type=radio] {
+    width:auto;
+}
+form.sldw_frm {
+       padding: 0 10px 0 20px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #000 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    outline: medium none !important;
+    transition: all 1s ease 0s;
+}
+.error_sldw {
+    color: #f00;
+    padding: 20px 10px 10px;
+}
+#sldw_linkediniconlinkleft{
+	outline:none;
+}
+
